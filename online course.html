@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Course Registration Form</title>
+
+</head>
+<body>
+
+    <h1>Online Course Registration Form</h1>
+
+    <form>
+        <label>Student Name:</label>
+        <input type="text" name="studentName" required>
+  
+        <label>Email Address:</label>
+        <input type="email" name="email" required>
+  
+        <label>Mobile Number:</label>
+        <input type="tel" name="mobile">
+
+        <label>Select Course:</label>
+        <select name="course" required>
+            <option value="">-- Select a Course --</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+        </select>
+
+        <input type="submit" value="Register">
+
+        <input type="hidden" name="formtype"
+         value="Online Course Registration">
+
+   
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
