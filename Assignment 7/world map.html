@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>World Map Explorer</title>
+</head>
+<body bgcolor="lightblue">
+
+    <h1 align="center">World Map Explorer</h1>
+    <p align="center">
+        Click on different regions of the map to explore countries.
+    </p>
+
+    <center>
+        <img src="map"
+             alt="World Map"
+             usemap="#worldmap"
+             width="900"
+             height="450">
+    </center>
+
+    <map name="worldmap">
+
+        <area shape="circle"
+              coords="650,240,35"
+              href="https://en.wikipedia.org/wiki/India"
+              alt="India"
+              target="_blank">
+
+        <area shape="rect"
+              coords="100,100,260,190"
+              href="https://en.wikipedia.org/wiki/United_States"
+              alt="United States of America"
+              target="_blank">
+
+        <area shape="poly"
+              coords="700,320,760,300,810,330,790,370,730,375"
+              href="https://en.wikipedia.org/wiki/Australia"
+              alt="Australia"
+              target="_blank">
+
+        <area shape="circle"
+              coords="790,200,20"
+              href="https://en.wikipedia.org/wiki/Japan"
+              alt="Japan"
+              target="_blank">
+
+        <area shape="rect"
+              coords="430,100,465,140"
+              href="https://en.wikipedia.org/wiki/United_Kingdom"
+              alt="United Kingdom"
+              target="_blank">
+
+        <area shape="poly"
+              coords="300,230,350,220,380,270,350,330,320,300"
+              href="https://en.wikipedia.org/wiki/Brazil"
+              alt="Brazil"
+              target="_blank">
+
+        <area shape="default"
+              href="https://en.wikipedia.org/wiki/World"
+              alt="Explore the world"
+              target="_blank">
+
+    </map>
+
+    <h2>Countries to Explore</h2>
+    <ul>
+        <li>India</li>
+        <li>United States</li>
+        <li>Australia</li>
+        <li>Japan</li>
+        <li>United Kingdom</li>
+        <li>Brazil</li>
+    </ul>
+
+</body>
+</html>

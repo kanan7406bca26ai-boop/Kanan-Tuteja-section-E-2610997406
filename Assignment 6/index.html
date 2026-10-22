@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Restaurant Menu</title>
+</head>
+<body>
+
+    <h1>Interactive Restaurant Menu</h1>
+
+    <p>
+        Welcome to our restaurant!
+        Click on any food item in the image to learn more about it.
+    </p>
+
+    <img src="food-menu.jpg"
+         alt="Restaurant food menu with different dishes"
+         width="350"
+         height="250"
+         usemap="#foodmap">
+
+    <map name="foodmap">
+
+        <area shape="circle"
+              coords="110,145,38"
+              href="pizza.html"
+              alt="Pizza"
+              target="_blank">
+
+        <area shape="circle"
+              coords="260,45,30"
+              href="burger.html"
+              alt="Burger"
+              target="_blank">
+
+        <area shape="rect"
+              coords="35,70,115,120"
+              href="fries.html"
+              alt="French Fries"
+              target="_blank">
+
+        <area shape="rect"
+              coords="125,5,210,75"
+              href="menucard.html"
+              alt="Restaurant Menu Card"
+              target="_blank">
+
+        <area shape="poly"
+              coords="0,115,45,105,75,155,45,195,0,175"
+              href="sandwich.html"
+              alt="Sandwich"
+              target="_blank">
+
+        <area shape="poly"
+              coords="10,5,65,0,100,35,75,65,25,50"
+              href="cake.html"
+              alt="Cake Slice"
+              target="_blank">
+
+        <area shape="default"
+              href="other.html"
+              alt="Other food items"
+              target="_blank">
+
+    </map>
+
+    <h2>Available Food Items</h2>
+
+    <ul>
+        <li>Pizza</li>
+        <li>Burger</li>
+        <li>French Fries</li>
+        <li>Menu Card</li>
+        <li>Sandwich</li>
+        <li>Cake Slice</li>
+        <li>Other Food Items</li>
+    </ul>
+
+    <a href="cake.html">cake</a>
+    <a href="fries.html">fries</a>
+    <a href="menucard.html">menu Card</a>
+    <a href="other.html">other</a>
+    <a href="pizza.html">pizza</a>
+    <a href="sandwich.html">sandwich</a>
+</body>
+</html>
